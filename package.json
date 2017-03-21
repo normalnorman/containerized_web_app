@@ -1,0 +1,13 @@
+{
+  "name": "containerized_web_app",
+  "version": "1.0.0",
+  "description": "node + docker + GCR + GKE + k8s + boogie",
+  "author": "Ron Norman ronnorman@google.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
